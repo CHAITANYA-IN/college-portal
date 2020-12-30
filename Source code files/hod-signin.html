@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>HOD Signin</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" action="hod-signin.php" method="post">
+         <svg width="80px" height="80px" viewBox="0 0 16 16" class="bi bi-file-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	<path fill-rule="evenodd" d="M12 1H4a1 1 0 0 0-1 1v10.755S4 11 8 11s5 1.755 5 1.755V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+	<path fill-rule="evenodd" d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+	</svg>
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+     <!-- <label for="inputEmail" class="sr-only">Email MIS</label> -->
+      <input type="text" name="inputfac_id" class="form-control" placeholder="Enter HOD ID" pattern="^\w{10}$">
+      <label for="inputPassword" class="sr-only">Password</label><br>
+      <input type="password" name="inputPassword" class="form-control" placeholder="Enter Password" pattern="^\w{8,}$" title="Must contain at least 8 or more non-whitespace characters" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+	  <a class="text-muted" href="course-display.php">GO BACK TO HOMEPAGE</a>
+    </form>
+  </body>
+</html>
+
